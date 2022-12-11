@@ -1,0 +1,99 @@
+.navbar {
+  flex-basis: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #ffffff;
+}
+
+.navLogo {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.navLogo img {
+  height: 40px;
+  width: 139px;
+}
+
+.navElement {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navElement span {
+  flex-basis: 25%;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Basis Grotesque", Helvetica, sans-serif;
+  text-align: left;
+  color: #140c40;
+  cursor: pointer;
+}
+
+.downImg {
+  height: 20px;
+  width: 20px;
+}
+
+.accounts {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accounts span {
+  flex-basis: 6%;
+  display: flex;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  font-family: "Basis Grotesque", Helvetica, sans-serif;
+  text-align: left;
+  cursor: pointer;
+}
+
+.login span {
+  flex-basis: 30%;
+  display: flex;
+  color: blue;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.login span:hover {
+  color: #140c40;
+}
+.signup {
+  opacity: 60%;
+}
+.signUp span {
+  background-color: #4760ff;
+  border-radius: 100px;
+  color: #fffefe;
+  display: inline-block;
+  font-style: normal;
+  font-family: "Basis Grotesque", Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 20.8px;
+  padding: 12px 24px;
+  text-align: center;
+  height: 44px;
+  width: 137px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.signUp span:hover {
+  background-color: #140c40;
+  transition: 0.6s;
+  margin-bottom: 2px;
+}
