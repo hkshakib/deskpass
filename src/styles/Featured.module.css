@@ -1,0 +1,35 @@
+.featured {
+  display: flex;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.DeskPasssWorkSpace,
+.DeskPassTeams,
+.DeskPassHQ {
+  display: flex;
+  flex-basis: 33%;
+  background: #fff;
+}
+
+.DeskPasssWorkSpace {
+  background-color: red;
+}
+.DeskPassHQ {
+  background-color:  green;
+}
+.DeskPassHQ {
+  background-color: blue;
+}
+.workspaceImages img{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.workspace{
+    flex-basis: 50%;
+}

@@ -7,13 +7,19 @@ let element = <FontAwesomeIcon icon={faAngleDown} />;
 const SearchSection = () => {
   return (
     <section className={classes.SearchSection}>
+
       <div className={classes.HomeSection}>
-        <p>work from <span className={classes.text}>anywhere.</span></p>
+        <p>
+          work from <span className={classes.text}>anywhere.</span>
+        </p>
         <strong>
-          We connect people to the amazing &nbsp;<span className={classes.Work}>workspaces</span> &nbsp;they need today...
+          We connect people to the amazing &nbsp;
+          <span className={classes.Work}>workspaces</span> &nbsp;they need
+          today...
         </strong>
         <strong>
-          to help companies create the hybrid &nbsp;<span className={classes.Work}>workplaces</span>&nbsp; of tomorrow.
+          to help companies create the hybrid &nbsp;
+          <span className={classes.Work}>workplaces</span>&nbsp; of tomorrow.
         </strong>
         <div className={classes.Search}>
           <span className={classes.Find}>Find</span>
@@ -21,10 +27,11 @@ const SearchSection = () => {
           <span className={classes.In}>in</span>
           <span className={classes.City}>Aberdeen {element}</span>
           <div className={classes.SeeMore}>
-            <span>See More</span>
+            <span>See Spaces</span>
           </div>
         </div>
       </div>
+      
     </section>
   );
 };
